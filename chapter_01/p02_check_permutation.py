@@ -2,6 +2,12 @@
 import unittest
 from collections import Counter
 
+"""
+
+Check Permutation: Given two strings, write a method to decide if one is a permutation of the
+other.
+
+"""
 
 def check_permutation_by_sort(s1, s2):
     if len(s1) != len(s2):
