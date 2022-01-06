@@ -2,6 +2,10 @@ import time
 import unittest
 from collections import defaultdict
 
+"""
+Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you 
+cannot use additional data structures? 
+"""
 
 def is_unique_chars_algorithmic(string):
     # Assuming character set is ASCII (128 characters)
