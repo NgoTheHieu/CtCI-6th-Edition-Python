@@ -2,6 +2,9 @@ import time
 
 from chapter_02.linked_list import LinkedList
 
+"""
+Remove Dups: Write code to remove duplicates from an unsorted linked list.
+"""
 
 def remove_dups(ll):
     current = ll.head
