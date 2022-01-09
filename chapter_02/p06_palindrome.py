@@ -2,6 +2,9 @@ import time
 
 from chapter_02.linked_list import LinkedList
 
+"""
+Palindrome: Implement a function to check if a linked list is a palindrome. 
+"""
 
 def is_palindrome(ll):
     fast = slow = ll.head
