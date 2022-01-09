@@ -1,6 +1,11 @@
 # O(N)
 import unittest
 
+"""
+String Rotation: Assume you have a method is Sub String which checks if one word is a substring 
+of another. Given two strings, S1 and S2, write code to check if S2 is a rotation of S1 using only one 
+call to iSSubString (e.g., "waterbottle" is a rotation of"erbottlewat"). 
+"""
 
 def string_rotation(s1, s2):
     if len(s1) == len(s2) != 0:
