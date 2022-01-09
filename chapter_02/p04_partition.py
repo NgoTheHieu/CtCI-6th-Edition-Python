@@ -1,9 +1,10 @@
 from chapter_02.linked_list import LinkedList
 
 """
-Sum Lists: You have two numbers represented by a linked list, where each node contains a single 
-digit. The digits are stored in reverse order, such that the 1 's digit is at the head of the list. Write a 
-function that adds the two numbers and returns the sum as a linked list. 
+Partition: Write code to partition a linked list around a value x, such that all nodes less than x come 
+before all nodes greater than or equal to x. If x is contained within the list the values of x only need 
+to be after the elements less than x (see below). The partition element x can appear anywhere in the 
+"right partition"; it does not need to appear between the left and right partitions. 
 """
 
 def partition(ll, x):
