@@ -2,6 +2,10 @@ from collections import deque
 
 from chapter_02.linked_list import LinkedList
 
+"""
+List of Depths: Given a binary tree, design an algorithm which creates a linked list of all the nodes 
+at each depth (e.g., if you have a tree with depth D, you'll have D linked lists
+"""
 
 class BinaryNode:
     def __init__(self, name, left=None, right=None):
